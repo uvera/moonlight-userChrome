@@ -33,3 +33,10 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 #tabbrowser-tabpanels {
     background-color: var(--moonlight-gray-2) !important;
 }
+
+/*
+ *	Hide Extension Name in the identity area
+ */
+#identity-box.extensionPage #identity-icon-labels {
+	display: none !important;
+}
