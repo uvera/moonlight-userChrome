@@ -1,4 +1,5 @@
 @import "_variables.css";
+@import "custom/_dev-tools.css";
 
 @-moz-document url(about:blank), url(about:newtab), url(about:home) {
     html:not(#ublock0-epicker),
